@@ -51,7 +51,7 @@
             }
 
             remove_list_n_btn(new_list, remove_btn) {
-                this.remove_btn.addEventListener("click", () => {
+                remove_btn.addEventListener("click", () => {
                     new_list.remove();
                     remove_btn.remove();
                 });
@@ -62,3 +62,4 @@
     });
 
 })();
+
